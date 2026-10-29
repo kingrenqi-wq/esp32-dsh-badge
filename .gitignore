@@ -1,0 +1,9 @@
+# 生成物与本地状态
+__pycache__/
+*.pyc
+.DS_Store
+fonts/
+backups/
+*.bmp
+*.ppm
+docs/*-tests.log
