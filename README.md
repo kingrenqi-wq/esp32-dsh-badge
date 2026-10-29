@@ -4,6 +4,8 @@ A 284×240 desk board for your Mac: weather, machine load, AI usage, spending, a
 
 ![six pages](docs/six-pages.png)
 
+*Screenshots rendered with sample data (host-side harness, same firmware code).*
+
 > Built for DeepSeek Harness users, but the firmware and the serial protocol are generic — any script that writes a `DSH|...` line can feed it.
 
 ## Pages · 六页
