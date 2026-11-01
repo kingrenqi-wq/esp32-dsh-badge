@@ -92,7 +92,7 @@ clang++ -std=c++17 -fsanitize=address,undefined -g \
 
 ## Known limits
 
-- CPU % is a sum of `ps` samples divided by core count; RAM is summed RSS. Not Activity Monitor.
+- CPU % is a sum of `ps` samples divided by core count. RAM follows Activity Monitor: (anonymous + wired + compressed pages) from `vm_stat`, not summed RSS.
 - Network counters are `en0` only.
 - No CPU temperature or fan speed — not readable on Apple silicon without root.
 - The board is **not** a second display. A window-mirror page was built and removed: at 284×240 and ~1.6 fps over USB-CDC, text is unreadable (`tools/mirror/` is kept behind `#define MIRROR_PAGE 0`).
