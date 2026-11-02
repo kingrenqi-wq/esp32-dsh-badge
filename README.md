@@ -1,10 +1,15 @@
 # ESP32 desk status board · 桌面状态牌
 
+[![ESP32-S3](https://img.shields.io/badge/MCU-ESP32--S3-blue)](https://www.espressif.com/en/products/socs/esp32-s3)
+[![LovyanGFX](https://img.shields.io/badge/display-LovyanGFX-green)](https://github.com/lovyan03/LovyanGFX)
+[![License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
+[![no cloud](https://img.shields.io/badge/cloud-none-critical)](docs/GUIDE.md)
+
 A 284×240 desk board for your Mac: weather, machine load, AI usage, spending, and activity heatmaps — driven by one serial protocol, three buttons, no cloud.
 
-![six pages](docs/six-pages.png)
+![six pages, cycling](docs/six-pages.gif)
 
-*Screenshots rendered with sample data (host-side harness, same firmware code).*
+*Six pages, one key each, two pages per key. Rendered with sample data (host-side harness, same firmware code) — [static grid](docs/six-pages.png).*
 
 > Built for DeepSeek Harness users, but the firmware and the serial protocol are generic — any script that writes a `DSH|...` line can feed it.
 
